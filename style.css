@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins,sans-serif;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+.header{
+    width:100%;
+    height: 100%;
+    min-height: 100vh;
+    background: #737272;
+}
+
+
+header{
+    padding: 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+
+nav .text2{
+  color: white;
+  text-align: center;
+  margin-right: 200px;
+}
+
+nav .navlinks{
+    list-style-type: none;
+    display: inline-block;
+    border: #4aa8ff solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #4aa8ff;
+    margin-left: 75rem;
+    font-weight: bold;
+}
+
+nav .navlinks li a{
+     color:#e5e5e5;
+     
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .pic{
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    overflow: hidden;
+    border: 10px solid #444;
+    box-shadow: 5px 7px 25px white;
+    
+}
+
+.pic img{
+    height: 100%;
+    width:100%;
+}
+
+
+.text{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.text h1{
+    color: #4aa8ff;
+    font-size: 3rem;
+}
+.text p{
+    color:#e5e5e5;
+    font-family: "Playwrite HR Lijeva Guides" ;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 3px;
+    line-height: 30px;
+}
